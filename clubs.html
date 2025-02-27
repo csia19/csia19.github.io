@@ -1,5 +1,6 @@
 
 
+
 <!-- clubs.html -->
 <!DOCTYPE html>
 <html lang="ko">
@@ -7,30 +8,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>동아리 목록</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>동아리 목록</h1>
-    </header>
-    <main>
-        <div class="club-container">
-            <a href="club1.html" class="club-card">
-                <img src="images/csiatech.jpg" alt="동아리 1 로고" class="club-logo">
-                <h2>CSIATech</h2>
-                <p>CSIATech은 웹프로그래밍을 통해 학생들이 겪는 기술적 불편함을 해결해주는 동아리입니다.</p>
-            </a>
-            <a href="club2.html" class="club-card">
-                <img src="images/club2_logo.png" alt="동아리 2 로고" class="club-logo">
-                <h2>동아리 2</h2>
-                <p>과학 실험을 통해 창의력을 키우는 동아리입니다.</p>
-            </a>
-            <a href="club3.html" class="club-card">
-                <img src="images/club3_logo.png" alt="동아리 3 로고" class="club-logo">
-                <h2>동아리 3</h2>
-                <p>디자인과 예술을 사랑하는 학생들을 위한 동아리입니다.</p>
-            </a>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">청심국제고 동아리</a>
         </div>
-    </main>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">동아리 목록</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="csiatech.jpg" class="card-img-top" alt="동아리 1 로고">
+                    <div class="card-body text-center">
+
+
+                        <h5 class="card-title">CSIATech</h5>
+                        <p class="card-text">CSIATech은 웹프로그래밍을 통해 학생들이 겪는 기술적 불편함을 해결해주는 동아리입니다.</p>
+                        <a href="club1.html" class="btn btn-primary">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/club2_logo.png" class="card-img-top" alt="동아리 2 로고">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">동아리 2</h5>
+                        <p class="card-text">과학 실험을 통해 창의력을 키우는 동아리</p>
+                        <a href="club2.html" class="btn btn-primary">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
