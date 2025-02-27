@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #003366;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+.club-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.club-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color: #003366;
+    display: block;
+}
+.club-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.club-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.club-logo-large {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.club-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.club-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.club-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
