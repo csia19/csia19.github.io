@@ -1,49 +1,43 @@
-
-
-
-<!-- clubs.html -->
+<!-- club1.html (업데이트된 디자인) -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>동아리 목록</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>동아리 1 소개</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">청심국제고 동아리</a>
-        </div>
-    </nav>
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">동아리 목록</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card shadow-sm">
-                    <img src="csiatech.jpg" class="card-img-top" alt="동아리 1 로고">
-                    <div class="card-body text-center">
-
-
-                        <h5 class="card-title">CSIATech</h5>
-                        <p class="card-text">CSIATech은 웹프로그래밍을 통해 학생들이 겪는 기술적 불편함을 해결해주는 동아리입니다.</p>
-                        <a href="club1.html" class="btn btn-primary">자세히 보기</a>
-                    </div>
-                </div>
+<body>
+    <header>
+        <h1>동아리 1</h1>
+    </header>
+    <main class="club-detail">
+        <section class="club-header">
+            <img src="csiatech.jpg" alt="CSIATech" class="club-logo-large">
+            <div class="club-info">
+                <h2>동아리 1</h2>
+                <p class="club-description">동아리 1은 학생들에게 프로그래밍을 가르치고, 다양한 프로젝트를 수행하는 동아리입니다.</p>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow-sm">
-                    <img src="images/club2_logo.png" class="card-img-top" alt="동아리 2 로고">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">동아리 2</h5>
-                        <p class="card-text">과학 실험을 통해 창의력을 키우는 동아리</p>
-                        <a href="club2.html" class="btn btn-primary">자세히 보기</a>
-                    </div>
-                </div>
+        </section>
+        <section class="club-content">
+            <h2>소개</h2>
+            <p>우리 동아리는 최신 웹 기술을 학습하고, 실제 프로젝트를 진행하여 기술적 문제를 해결하는 활동을 합니다. 다양한 해커톤과 공모전에 참여하여 실력을 증명하고 있습니다.</p>
+        </section>
+        <section class="club-awards">
+            <h2>수상 실적</h2>
+            <ul>
+                <li>2023 전국 해커톤 대회 1위</li>
+                <li>2022 프로그래밍 챌린지 최우수상</li>
+            </ul>
+        </section>
+        <section class="club-gallery">
+            <h2>활동 사진 및 포트폴리오</h2>
+            <div class="gallery-container">
+                <img src="images/club1_activity1.jpg" alt="활동 사진 1">
+                <img src="images/club1_activity2.jpg" alt="활동 사진 2">
+                <img src="images/club1_project1.jpg" alt="포트폴리오 1">
             </div>
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        </section>
+    </main>
 </body>
 </html>
